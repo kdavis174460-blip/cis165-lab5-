@@ -25,12 +25,6 @@ int main() {
     std::cout << "Enter the number of times interest is compounded per year: ";
     std::cin >> times_compounded;
 
-    if (!std::cin || principal < 0.0 || times_compounded <= 0) {
-        std::cerr << "Please enter a non-negative principal and a positive "
-                     "number of compounding periods.\n";
-        return 1;
-    }
-
     const double rate = annual_rate_percent / 100.0;
     const double amount =
         principal * pow(1.0 + rate / times_compounded, times_compounded);
