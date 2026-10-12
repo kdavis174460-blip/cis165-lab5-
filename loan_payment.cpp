@@ -30,7 +30,6 @@ int main() {
     const double rate = pow(1.0 + monthly_rate, number_of_payments);
     monthly_payment = (monthly_rate * rate / (rate - 1.0)) * loan_amount;
 
-
     const double amount_paid_back = monthly_payment * number_of_payments;
     const double interest_paid = amount_paid_back - loan_amount;
 
