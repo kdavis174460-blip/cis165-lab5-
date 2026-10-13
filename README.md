@@ -24,7 +24,7 @@ Course section: CIS-165-W099
     (8)Display the input values from steps 1-3 and the results from the formulas used  
 	
 # Test Table 
-Restored it back to its original values, even though the test table also records other values.
+Restored it back to its original values, even though the test table also records other values. Ran it again after restoring it to its assigned values. 
 
 
 | Program | Value Used | Expected Results | Actual Output | Match or Fix |
