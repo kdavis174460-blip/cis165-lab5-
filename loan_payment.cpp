@@ -45,4 +45,4 @@ int main() {
               << "Interest paid: $" << interest_paid << '\n';
 
     return 0;
-}
+} 
